@@ -18,6 +18,6 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ valid: !!data });
   } catch (error) {
-    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+    return NextResponse.json({ error }, { status: 400 });
   }
 }

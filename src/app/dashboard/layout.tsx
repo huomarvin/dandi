@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { Toaster } from 'react-hot-toast';
 import { Sidebar } from '@/components/Sidebar';
-import { Navbar } from '@/components/Navbar';
 
 export default function DashboardLayout({
   children,

@@ -60,7 +60,7 @@ export function CreateApiKeyModal({
               className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
             />
             <p className="text-gray-500 text-sm mt-2">
-              * If the combined usage of all your keys exceeds your plan's
+              * If the combined usage of all your keys exceeds your plan&apos;s
               limit, all requests will be rejected.
             </p>
           </div>

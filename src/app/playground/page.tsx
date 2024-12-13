@@ -30,7 +30,7 @@ export default function Playground() {
         showToast.error("Invalid API key");
       }
     } catch (error) {
-      showToast.error("Error validating API key");
+      showToast.error(`Error validating API key ${error}`);
     } finally {
       setIsSubmitting(false);
     }

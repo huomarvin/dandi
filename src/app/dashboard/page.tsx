@@ -13,14 +13,14 @@ export default function Dashboard() {
     fetchApiKeys,
     createApiKey,
     updateApiKey,
-    deleteApiKey
+    deleteApiKey,
   } = useApiKeys();
 
   useEffect(() => {
     fetchApiKeys();
   }, []);
 
-  const handleCreateApiKey = async (name: string, limit: number) => {
+  const handleCreateApiKey = async (name: string) => {
     const success = await createApiKey(name);
     if (success) {
       setIsCreateModalOpen(false);
@@ -83,7 +83,7 @@ export default function Dashboard() {
               </p>
             </div>
 
-            <ApiKeysTable 
+            <ApiKeysTable
               apiKeys={apiKeys}
               onUpdateKey={updateApiKey}
               onDeleteKey={deleteApiKey}
