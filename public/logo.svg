@@ -1,0 +1,16 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="16" cy="16" r="16" fill="#000"/>
+  
+  <!-- D字母 -->
+  <path 
+    d="M10 8h6c4.418 0 8 3.582 8 8s-3.582 8-8 8h-6V8z" 
+    fill="#fff"
+  />
+  
+  <!-- D字母内部挖空 -->
+  <path 
+    d="M12 10v12h4c3.314 0 6-2.686 6-6s-2.686-6-6-6h-4z" 
+    fill="#000"
+  />
+</svg> 
